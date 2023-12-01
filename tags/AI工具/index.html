@@ -11,7 +11,9 @@
   
   <title>
     
-      Hexo
+      Tag 
+       : AI工具
+      
     
   </title>
 
@@ -29,10 +31,6 @@
 <link rel="stylesheet" href="/css/common.css">
 <link rel="stylesheet" href="/iconfont/iconfont.css">
 
-
-  
-    
-<link rel="stylesheet" href="/css/index.css">
 
   
 
@@ -96,55 +94,55 @@
  -->
 
       <div class="main">
-        <div>
-  <ul>
-    <!-- 遍历渲染文章 -->
+        <!-- 归档页，展示本站所有文章，按照年份降序归类，url形式：https://yoursite/archives/ -->
+
+<!-- last: 按年份把文章分组，当前遍历到的年份 -->
+<!-- now: 当前遍历到的文章的发布年份 -->
+
+<div class="container archives">
+  <div class="post-list">
     
-    <li>
-      <h3>Dec 01, 2023</h3>
-      <h2>
-        <a href="/2023/12/01/ComfyUI%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C/">
-          
+        <!-- 后续文章的发布年份呈现 -->
+        <div class="content-title">
+          <h2>
+            <span>2023</span>
+          </h2>
+        </div>
+      
+      <div class="post-item" title="ComfyUI使用体验">
+        <div class="time-m-d">12-01</div>
+        <div class="title">
+          <a href="/2023/12/01/ComfyUI%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C/">
             
               <span>ComfyUI使用体验</span>
             
-          
-        </a>
-      </h2>
-    </li>
+          </a>
+        </div>
+      </div>
     
-    <li>
-      <h3>Dec 01, 2023</h3>
-      <h2>
-        <a href="/2023/12/01/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%A0%87%E9%A2%98/">
-          
+      <div class="post-item" title="TEST">
+        <div class="time-m-d">12-01</div>
+        <div class="title">
+          <a href="/2023/12/01/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%A0%87%E9%A2%98/">
             
               <span>TEST</span>
             
-          
-        </a>
-      </h2>
-    </li>
+          </a>
+        </div>
+      </div>
     
-    <li>
-      <h3>Dec 01, 2023</h3>
-      <h2>
-        <a href="/2023/12/01/hello-world/">
-          
+      <div class="post-item" title="Hello World">
+        <div class="time-m-d">12-01</div>
+        <div class="title">
+          <a href="/2023/12/01/hello-world/">
             
               <span>Hello World</span>
             
-          
-        </a>
-      </h2>
-    </li>
+          </a>
+        </div>
+      </div>
     
-  </ul>
-  
-  <nav class="post-navigation">
-    
-    
-  </nav>
+  </div>
 </div>
 
         <div class="footer">
