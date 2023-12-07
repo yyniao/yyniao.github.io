@@ -4,11 +4,34 @@
   
     
     <entry>
+      <title>ComfyUI学习-controlnet</title>
+      <link href="/2023/12/06/ComfyUI%E5%AD%A6%E4%B9%A0%EF%BC%88Blender%EF%BC%89/"/>
+      <url>/2023/12/06/ComfyUI%E5%AD%A6%E4%B9%A0%EF%BC%88Blender%EF%BC%89/</url>
+      
+        <content type="html"><![CDATA[<p>需求即是心之所向，回归实用工具本质<br>使结果可控，控制是实现目标的基石</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> ComfyUI </tag>
+            
+            <tag> AI工具 </tag>
+            
+            <tag> controlnet </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>ComfyUI使用体验</title>
       <link href="/2023/12/01/ComfyUI%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C/"/>
       <url>/2023/12/01/ComfyUI%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C/</url>
       
-        <content type="html"><![CDATA[<h1 id="云端运行ComfyUI"><a href="#云端运行ComfyUI" class="headerlink" title="云端运行ComfyUI"></a>云端运行ComfyUI</h1><p>这是正文的一部分。以下是一个无序列表的示例：</p><ul><li>项目一</li><li>项目二</li><li>项目三</li></ul><p><strong>这是加粗的文本。</strong></p><p><code>这是一段代码</code></p>]]></content>
+        <content type="html"><![CDATA[<h1 id="云端运行ComfyUI"><a href="#云端运行ComfyUI" class="headerlink" title="云端运行ComfyUI"></a>云端运行ComfyUI</h1><h1 id="视频生成教程体验报告"><a href="#视频生成教程体验报告" class="headerlink" title="视频生成教程体验报告"></a>视频生成教程体验报告</h1><h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>本报告基于歸藏(@op7418)发布的视频生成教程，主要聚焦于使用体验。该教程介绍了如何在 KSampler 和 Load Checkpoint 之间增加 Animatediff 动画节点，制作超过16帧的视频，以及视频的预览和输出方法。</p><h2 id="使用体验"><a href="#使用体验" class="headerlink" title="使用体验"></a>使用体验</h2><h3 id="步骤清晰度"><a href="#步骤清晰度" class="headerlink" title="步骤清晰度"></a>步骤清晰度</h3><ul><li><strong>Animatediff 动画节点添加</strong>: 步骤简明易懂，通过右键或搜索节点名称轻松找到对应节点。</li><li><strong>上下文节点（Context_options）添加</strong>: 操作指南详细，易于理解和执行。</li></ul><h3 id="功能实用性"><a href="#功能实用性" class="headerlink" title="功能实用性"></a>功能实用性</h3><ul><li><strong>生成长视频</strong>: 通过上下文节点的添加，能够有效生成超过16帧的视频，这对于需要长视频的用户来说非常有用。</li><li><strong>视频预览和输出</strong>: 提供了一个直观的方式来预览和输出视频，使得整个过程更加高效。</li></ul><h3 id="界面友好性"><a href="#界面友好性" class="headerlink" title="界面友好性"></a>界面友好性</h3><ul><li>整个操作流程在界面上的实现是直观的，使得即使是初学者也能够轻松上手。</li></ul><h3 id="性能和稳定性"><a href="#性能和稳定性" class="headerlink" title="性能和稳定性"></a>性能和稳定性</h3><ul><li>在初次尝试时建议每次生成16帧，有助于保证系统稳定性。经测试，按照这种方式操作，系统运行稳定，无明显卡顿或崩溃现象。</li></ul><h3 id="保存和分享"><a href="#保存和分享" class="headerlink" title="保存和分享"></a>保存和分享</h3><ul><li>视频的保存和分享方法简单明了，用户可以轻松地保存或预览他们创建的视频。</li></ul><h2 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h2><p>总体来说，歸藏(@op7418)的视频生成教程提供了一种简单且高效的方式来生成和处理视频。其步骤简洁明了，功能实用，适合各种水平的用户。通过本教程，用户可以无压力地创建和分享他们的视频作品。</p>]]></content>
       
       
       
