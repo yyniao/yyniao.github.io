@@ -11,7 +11,7 @@
   
   <title>
     
-      archive_a: 2023 
+      生成式AI随想 
       
       
     
@@ -33,6 +33,10 @@
 
 
   
+
+  
+    
+<link rel="stylesheet" href="/css/post.css">
 
   
 
@@ -94,79 +98,47 @@
  -->
 
       <div class="main">
-        <!-- 归档页，展示本站所有文章，按照年份降序归类，url形式：https://yoursite/archives/ -->
+        <!-- 文章详情页，展示文章具体内容，url形式：https://yoursite/文章标题/ -->
+<!-- 同时为「标签tag」，「朋友friend」，「分类categories」，「关于about」页面的承载页面，具体展示取决于page.type -->
 
-<!-- last: 按年份把文章分组，当前遍历到的年份 -->
-<!-- now: 当前遍历到的文章的发布年份 -->
+<!-- LaTex Display -->
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']]
+    }
+  };
+</script>
 
-<div class="container archives">
-  <div class="post-list">
-    
-        <!-- 后续文章的发布年份呈现 -->
-        <div class="content-title">
-          <h2>
-            <span>2023</span>
-          </h2>
-        </div>
-      
-      <div class="post-item" title="生成式AI随想">
-        <div class="time-m-d">12-11</div>
-        <div class="title">
-          <a href="/2023/12/11/%E7%94%9F%E6%88%90%E5%BC%8FAI%E9%9A%8F%E6%83%B3/">
-            
-              <span>生成式AI随想</span>
-            
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="ComfyUI学习-controlnet">
-        <div class="time-m-d">12-06</div>
-        <div class="title">
-          <a href="/2023/12/06/ComfyUI%E5%AD%A6%E4%B9%A0%EF%BC%88Blender%EF%BC%89/">
-            
-              <span>ComfyUI学习-controlnet</span>
-            
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="ComfyUI使用体验">
-        <div class="time-m-d">12-01</div>
-        <div class="title">
-          <a href="/2023/12/01/ComfyUI%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C/">
-            
-              <span>ComfyUI使用体验</span>
-            
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="TEST">
-        <div class="time-m-d">12-01</div>
-        <div class="title">
-          <a href="/2023/12/01/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%A0%87%E9%A2%98/">
-            
-              <span>TEST</span>
-            
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="Hello World">
-        <div class="time-m-d">12-01</div>
-        <div class="title">
-          <a href="/2023/12/01/hello-world/">
-            
-              <span>Hello World</span>
-            
-          </a>
-        </div>
-      </div>
-    
+<div class="post">
+  <h3 class="date">
+    Dec 11, 2023
+  </h3>
+  <h1>
+    生成式AI随想
+  </h1>
+  <div class="content markdown-body">
+    <p><a target="_blank" rel="noopener" href="https://justgoidea.com/posts/2023-064/">https://justgoidea.com/posts/2023-064/</a><br>一方面要建立一个足够通用的系统，使其成为许多事情的基础；另一方面又要建立一个足够有用的产品，使最终用户能够解决他们的问题。<br>大模型是否足够通用<br>平台是否能重塑工作流程<br>在思考流程时，Heptabase作者首先考虑的是它属于知识生命周期的哪一部分，以及我们如何在生命周期的这一部分设计这项功能并将其与我们现有的解决方案整合在一起。<br>对应到工业设计工作流程，是否要先找出一个心智模型去指导，因为这本身是一种设计创造活动。</p>
+<p>「卡片」是 Heptabase 系统的基本元素。目前，我们有笔记卡片、日志卡片、PDF 卡片，不久还将推出高亮显示卡片、音频卡片、视频卡片、图像卡片等。<br>在designGPt里，基本元素是什么？回答，图片，模型，在从中衍生出来的不一样的变体。 </p>
+<p>我见过很多公司的做法是，首先考虑一个完美的系统应该是什么样的，应该具备哪些功能。他们为该系统编写明确的规格，然后根据这些规格构建一切。这种方法的最大挑战在于，你最终得到的是一把功能繁多的瑞士刀，虽然它可能能做很多事情，但对于最终用户来说，它可能会让人望而生畏。<br>大多数人只想找到一个开箱即用的解决方案。大多数人并不关心你在系统中引入的所有概念和功能。而且，不管你的技术有多好，如果没有多少人使用，你最终也会一事无成。因此，这些公司通常需要花费大量时间来提高可用性、简化产品和了解用户需求。<br><img src="/images/AI智能员工体系.png" width="500"></p>
+<p>诚实的面对自己：</p>
+<p>你认为自己知道多少，以及你认为自己不知道多少。如果你认为自己什么都知道，那么你就会从一开始就设计整个系统，而风险在于你可能会在很多事情上出错。</p>
+<p>如果你认为自己只知道几件事情，那么你可以先设计一个能很好地处理这几件事情的系统，然后将其投入使用，看看人们是如何使用它的，从而获得更多关于人们如何工作的知识，并利用这些知识来发展你的系统，以适应更多的功能，同时兼顾可用性。</p>
+<p>这种方法最具挑战性的地方在于，要克制从一开始就试图设计出一个完美系统的冲动，并承认自己还有不了解的地方。一旦你承认了这一点，你就会开始思考如何从用户那里获得这些见解。</p>
+<p><a target="_blank" rel="noopener" href="https://meia.me/article/173?cid=0&scid=0">https://meia.me/article/173?cid=0&amp;scid=0</a><br>这一篇讲设计的心智模型的来源和发展，意外发现了从不同角度看交互设计师的“诞生”。<br>在软件行业遭遇危机，产品不被用户接受的时候，项目团队中需要有人为用户代言，理解用户心智模型，交互设计师和以用户为中心（UCD）思想便应运而生了。交互设计的根本目的是为了弥合心智模型和技术模型的巨大鸿沟，帮助用户理解和使用产品。</p>
+<p>这种匹配的程度越高，用户体验就越好，产品就越容易被用户接受，从而转化为商业价值，那么这就是一个好的设计。当产品的表现模型接近用户心智模型，那么产品的学习成本大大降低，那么就具备了为普通人所接受的前提条件，自然会带来巨大的商业成功，比如：Windows95。<br>那么AI时代的心智模型是什么？</p>
+
   </div>
+  
+    
+      <a id="older" class="blog-nav" href="/2023/12/06/ComfyUI%E5%AD%A6%E4%B9%A0%EF%BC%88Blender%EF%BC%89/">OLDER&nbsp;&gt;</a>
+      
+        
+            
 </div>
-
         <div class="footer">
   
     <div class="footer-more">
